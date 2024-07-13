@@ -47,7 +47,8 @@ void SelectionSort(int a[], int size){
         min = i;
 
         for(j = i + 1; j < size; j++){
-            if(a[j]<a[min])min = j;
+            if(a[j]<a[min])
+            min = j;
         }
 
         temp = a[i];
