@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-
+// struct 랑 void 위 아래 순서가 바꼈더니 인식을 못했었음
 struct a{
     int num;
     double total;

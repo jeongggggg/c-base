@@ -21,7 +21,7 @@ int main(){
        printf("error \n");
     }
 
-    while(fgetc(buffer,100,f1) != NULL){
+    while(fgets(buffer,100,f1) != NULL){
 
         fputs(buffer,f2);
     }

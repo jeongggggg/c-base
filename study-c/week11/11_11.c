@@ -25,7 +25,7 @@ int main(){
         }
 
         scanf("%s",name);
-        printf(f1,"%d \t %d \n", num, name);
+        fprintf(f1,"%d \t %s \n", num, name);
     }
 
     fclose(f1);

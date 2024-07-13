@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-// X
+// X 올림차순으로 정렬 => 아래 코드는 정렬이 불가
 
 void swap(int, int);
 
@@ -14,7 +14,7 @@ int main(){
         for(j=0;j<5;j++){
 
             if(a[i] > a[j]){
-                swap(a[i],a[j]);
+                swap(a[i],a[j]); // 여기가 불가함
             }
         }
     }

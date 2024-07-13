@@ -12,7 +12,7 @@ int main(){
     name = (char *)malloc(20*sizeof(char));
 
     printf("name : \n");
-    scanf_s("%s",name,20); // -> 사이즈가 있는 경우에는 scanf_s, scanf를 사용한 경우에는 ("%s",name);
+    scanf("%s",name); // -> 사이즈가 있는 경우에는 scanf_s, scanf를 사용한 경우에는 ("%s",name);
 
     for(j=0;j<SIZE;j++){
         printf("m[%d를 입력하세요:", j);
